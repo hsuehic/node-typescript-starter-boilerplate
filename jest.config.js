@@ -8,7 +8,6 @@ module.exports = {
   transform: {
     '^.+\\.(ts|tsx)$': 'ts-jest',
   },
-  testRegex: "(/src/.*\\.(test|spec))\\.(jsx?|tsx?)$", 
+  testRegex: '(/src/.*\\.(test|spec))\\.(jsx?|tsx?)$',
   testEnvironment: 'node',
 };
-

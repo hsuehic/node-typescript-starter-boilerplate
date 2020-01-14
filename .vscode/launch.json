@@ -5,21 +5,16 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Typescript",
+      "name": "debug",
       "type": "node",
       "request": "launch",
-      "runtimeArgs": [
-        "-r",
-        "ts-node/register",
-      ],
+      "runtimeArgs": ["-r", "ts-node/register"],
       "env": {
         "NODE_ENV": "development"
       },
-      "args": [
-        "${workspaceFolder}/src/index.ts"
-      ],
+      "args": ["${workspaceFolder}/src/index.ts"],
       "protocol": "inspector",
-      "outputCapture": "std",
+      "outputCapture": "std"
     }
   ]
 }
