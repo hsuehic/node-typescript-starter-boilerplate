@@ -33,6 +33,7 @@
     "@babel/polyfill": "^7.2.5",
     "@babel/preset-env": "^7.3.4",
     "@babel/runtime": "^7.8.3",
+    "@types/chrome": "^0.0.91",
     "@types/express": "*",
     "@types/http-proxy": "*",
     "@types/jest": "^24.0.12",
