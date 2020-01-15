@@ -3,9 +3,9 @@ import ProxyForm from './ProxyForm';
 import ProxyListTable from './ProxyListTable';
 
 import s from './less/popup.less';
-import { ProxySettings, ModalsObject } from '../../types/types';
-import { getFromStorage, saveToStorage } from '../../utils/storage';
-import { StorageState } from '../../types/types';
+import { ProxySettings, ModalsObject } from '../types/types';
+import { getFromStorage, saveToStorage } from '../utils/storage';
+import { StorageState } from '../types/types';
 import { KEY_STORAGE_PROXIES, KEY_STORAGE_SELECTED_PROXIES } from './constant';
 
 interface Props {}

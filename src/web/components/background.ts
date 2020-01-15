@@ -1,12 +1,12 @@
-import { getFromStorage } from '../../utils/storage';
-import { StorageState } from '../../types/types';
+import { getFromStorage } from '../utils/storage';
+import { StorageState } from '../types/types';
 import {
   KEY_STORAGE_PROJECTS,
   KEY_STORAGE_SELECTED_APIS,
   KEY_STORAGE_PROXIES,
   KEY_STORAGE_SELECTED_PROXIES,
 } from './constant';
-import { isSameHost } from '../../utils/url';
+import { isSameHost } from '../utils/url';
 
 let listener: (
   details: chrome.webRequest.WebRequestBodyDetails,

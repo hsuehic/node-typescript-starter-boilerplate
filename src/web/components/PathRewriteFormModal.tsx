@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button, Form, Input, Modal } from 'antd';
 import { FormComponentProps } from 'antd/lib/form/Form';
-import { PathRewrite } from '../../types/types';
+import { PathRewrite } from '../types/types';
 
 import s from './less/popup.less';
 

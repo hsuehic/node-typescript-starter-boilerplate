@@ -3,9 +3,9 @@ import ProjectForm from './ProjectForm';
 import ApiListTable from './ApiListTable';
 
 import s from './less/popup.less';
-import { Project, Api, ModalsObject, StorageState, MockProject } from '../../types/types';
+import { Project, Api, ModalsObject, StorageState, MockProject } from '../types/types';
 import { message } from 'antd';
-import { getFromStorage, saveToStorage } from '../../utils/storage';
+import { getFromStorage, saveToStorage } from '../utils/storage';
 import { KEY_STORAGE_SELECTED_APIS, KEY_STORAGE_PROJECTS } from './constant';
 
 const divider = '|||';

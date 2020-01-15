@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Button, Form, Input } from 'antd';
 import { FormComponentProps } from 'antd/lib/form/Form';
 import PathRewriteFormModal from './PathRewriteFormModal';
-import { PathRewrite, ProxySettings } from '../../types/types';
+import { PathRewrite, ProxySettings } from '../types/types';
 
 import s from './less/popup.less';
 

@@ -1,9 +1,9 @@
 import React from 'react';
 import s from './less/popup.less';
 import { Modal, Table, Button } from 'antd';
-import { Api, HttpResponse } from '../../types/types';
+import { Api, HttpResponse } from '../types/types';
 import { fetchApis } from './requests';
-import { Project } from '../../types/types';
+import { Project } from '../types/types';
 
 const { Column } = Table;
 interface Props {

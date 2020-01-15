@@ -1,6 +1,6 @@
 import React from 'react';
 import { Table, Icon, Modal } from 'antd';
-import { PathRewrite, ProxySettings } from '../../types/types';
+import { PathRewrite, ProxySettings } from '../types/types';
 import s from './less/popup.less';
 
 interface Props {

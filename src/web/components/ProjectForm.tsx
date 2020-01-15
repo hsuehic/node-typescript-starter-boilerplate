@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Button, Form, Input, Select } from 'antd';
 import { FormComponentProps } from 'antd/lib/form/Form';
-import { Project } from '../../types/types';
+import { Project } from '../types/types';
 import { fetchProjects } from './requests';
 import { URL_DEFAULT_PLATFORM, URL_DEFAULT_ORIGIN } from './constant';
 

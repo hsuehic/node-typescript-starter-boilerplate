@@ -1,5 +1,5 @@
-import { get } from '../../utils/fetch';
-import { HttpResponse, Project, Api } from '../../types/types';
+import { get } from '../utils/fetch';
+import { HttpResponse, Project, Api } from '../types/types';
 import { PATH_PROJECTS, PATH_PROJECT_APIS } from './constant';
 
 export async function fetchProjects(urlPlatformAddress: string) {
